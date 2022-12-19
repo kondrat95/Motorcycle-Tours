@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="conteiner-fluid conteiner-position">
+            <div class="header-box">
+                <div class="header-logo">
+                    <div class="header-logo-img">
+                        <img class="header-logo-img--style" src="images/logo.svg" alt="logo">
+                    </div>
+                    <div class="header-logo-name">
+                        <h2 class="header-logo-name__header">Endless<span
+                                class="header-logo-name__header--color">Ride</span></h2>
+                        <span class="header-logo-name__footer">Tagline here</span>
+                    </div>
+                </div>
+                <div class="box-right">
+                    <div class="nav-box">
+                        <div class="nav">
+                            <div class="nav-list"><a class="nav-list--style" href="#tours">Tours</a></div>
+                            <div class="nav-list"><a class="nav-list--style" href="#about">About us</a></div>
+                            <div class="nav-list"><a class="nav-list--style" href="#blog">Blog</a></div>
+                            <div class="nav-list"><a class="nav-list--style " href="#contact">Contact</a></div>
+                            <div class="nav-list"><a class="nav-list--style login-open " href="#">Sign in</a></div>
+                        </div>
+                    </div>
+                    <div class="social-btn">
+                        <ul class="social-btn-list">
+                            <li><a href="#"><img class="social-btn-list__img" src="images/Icon-facebook.png"
+                                        alt="facebook"></a></li>
+                            <li><a href="#"><img class="social-btn-list__img" src="images/Icon-google.png"
+                                        alt="google"></a></li>
+                            <li><a href="#"><img class="social-btn-list__img" src="images/Icon-vk.png" alt="vk"></a>
+                            </li>
+                            <li><a href="#"><img class="social-btn-list__img" src="images/Icon-youtube.png"
+                                        alt="youtube"></a></li>
+                        </ul>
+                    </div>
+                    <div class="social-btn__menu">
+                        <div class="social-btn__menu-click">
+                            <div><img class="social-btn__menu-click--img-open" src="images/xmarkout.png" alt="xmarkout">
+                            </div>
+                            <div><img class="social-btn__menu-click--img-close" src="images/xmark.png" alt="xmarkout">
+                            </div>
+                        </div>
+                        <div class="social-btn-list--media">
+                            <a class="social-btn-list__img--media" href="#"><img class="social-btn-list__img--style"
+                                    src="images/Icon-facebook.png" alt="facebook"></a>
+                            <a class="social-btn-list__img--media" href="#"><img class="social-btn-list__img--style"
+                                    src="images/Icon-google.png" alt="google"></a>
+                            <a class="social-btn-list__img--media" href="#"><img class="social-btn-list__img--style"
+                                    src="images/Icon-vk.png" alt="vk"></a>
+
+                            <a class="social-btn-list__img--media" href="#"><img class="social-btn-list__img--style"
+                                    src="images/Icon-youtube.png" alt="youtube"></a>
+                        </div>
+
+                    </div>
+                    <div class="icon-menu">
+                        <span></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="banner-wrapper">
+            <div class="conteiner-fluid">
+                <img class="background-image" src="images/background-image.jpg" alt="">
+                <div class="banner">
+                    <div class="banner-content">
+                        <h1 class="banner-content__text">2,500 tours in over 100 destinations <br>
+                            and 36 years of experience!</h1>
+                        <img class="banner-content__img" src="images/moto-banner.png" alt="moto">
+                    </div>
+
+                </div>
+                <div class="bagr">
+                    <div class="conteiner-login">
+                        <div class="block">
+                            <div class="block-item">
+                                <h2 class="block-item--style">Don't want to Login?</h2>
+                                <button class="block-item--style-btn signin-btn">Sign in</button>
+                            </div>
+                            <div class="block-item">
+                                <h2 class="block-item--style">Don't have an account?</h2>
+                                <button class="block-item--style-btn signup-btn"> Sign up </button>
+                            </div>
+                        </div>
+                        <div class="block-form">
+                            <div class="form form__sign-in">
+                                <h3 class="form-title ">Sign In </h3>
+                                <p> <input class="form__input" type="text" placeholder="login"></p>
+                                <p> <input class="form__input" type="password" placeholder="Password"></p>
+                                <p><button class="form__btn">Sign in</button></p>
+                                <p><a class="form-link" href="#">Forgot Password?</a></p>
+                            </div>
+                            <div class="form form__sign-up">
+                                <h3 class="form-title">Sign Up </h3>
+                                <p> <input class="form__input" type="text" placeholder="login"></p>
+                                <p> <input class="form__input" type="email" placeholder="email"></p>
+                                <p> <input class="form__input" type="password" placeholder="Password"></p>
+                                <p> <input class="form__input" type="password" placeholder="Password again "></p>
+                                <p><button class="form__btn">Sign Up</button></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="swiper-block" id="tours">
+            <div class="conteiner">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slide-img ">
+                                <div class="style-one"></div>
+                                <img class="slide-img__decor" src="images/img-slider.png" alt="img-slider">
+                                <h2 class="slide-img__text"><span class="slide-img__text--style">$</span>6 990.00</h2>
+                                <h3 class="slide-img__text-explanation">per Person</h3>
+
+                            </div>
+                            <div class="slide-content">
+                                <h2 class="slide-content__titl">Balkans motorcycle <br> tour</h2>
+                                <p class="slide-content__text">If you like a combination of amazing ride and excitement
+                                    of
+                                    extraordinary and thrilling
+                                    adventure this is the tour for you. One of the best coastal rides there is, the
+                                    curves
+                                    of
+                                    mystic Balkan mountains of Montenegro and Bosnia, the beauty of unexplored and
+                                    exciting
+                                    Albania make this tour complete adventure.</p>
+                                <button class="slide-content__btn">More</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-img ">
+                                <div class="style-two"></div>
+                                <img class="slide-img__decor" src="images/img-slider.png" alt="img-slider">
+                                <h2 class="slide-img__text"><span class="slide-img__text--style">$</span>4 380.00</h2>
+                                <h3 class="slide-img__text-explanation">per Person</h3>
+                            </div>
+                            <div class="slide-content">
+                                <h2 class="slide-content__titl">Adriatic motorcycle <br> tour</h2>
+                                <p class="slide-content__text">Prepare for miles and miles of nothing but the sheer blue
+                                    sea
+                                    on one side and the grey slopes
+                                    of a mighty mountain on the other... Enjoy the view of the green vineyards and old
+                                    olive
+                                    groves scattered over the charming hilly areas of Istria and Dalmatia.</p>
+                                <button class="slide-content__btn">More</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-img ">
+                                <div class="style-three"></div>
+                                <img class="slide-img__decor" src="images/img-slider.png" alt="img-slider">
+                                <h2 class="slide-img__text"><span class="slide-img__text--style">$</span>3 890.00</h2>
+                                <h3 class="slide-img__text-explanation">per Person</h3>
+                            </div>
+                            <div class="slide-content">
+                                <h2 class="slide-content__titl">Southern Spain Andalusia motorcycle <br> tour</h2>
+                                <p class="slide-content__text">A fantastic tour that combines amazing sceneries of green
+                                    inlands, coastal rides, colorful
+                                    towns, fantastic twisties, wine and tapas bars and warmth of Mediterranean.</p>
+                                <button class="slide-content__btn">More</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-img ">
+                                <div class="style-four"></div>
+                                <img class="slide-img__decor" src="images/img-slider.png" alt="img-slider">
+                                <h2 class="slide-img__text"><span class="slide-img__text--style">$</span>7 140.00</h2>
+                                <h3 class="slide-img__text-explanation">per Person</h3>
+                            </div>
+                            <div class="slide-content">
+                                <h2 class="slide-content__titl">Tuscany Sardinia and Corsica motorcycle tour</h2>
+                                <p class="slide-content__text">Starting from the romantic city of Venice, full of
+                                    historical
+                                    splendour, we will take you on
+                                    a ride through amazing Tuscany full of awesome hilly landscapes, scenic roads,
+                                    vineyards,
+                                    amazing cuisine and marvellous historic towns. Then hopping to the hidden jewels of
+                                    Italy
+                                    and France, Islands of Sardinia and Corsica. </p>
+                                <button class="slide-content__btn">More</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-img ">
+                                <div class="style-five"></div>
+                                <img class="slide-img__decor" src="images/img-slider.png" alt="img-slider">
+                                <h2 class="slide-img__text"><span class="slide-img__text--style">$</span>3 630.00
+                                </h2>
+                                <h3 class="slide-img__text-explanation">per Person</h3>
+                            </div>
+                            <div class="slide-content">
+                                <h2 class="slide-content__titl">Adriatic Islands and South Coast to Dubrovnik and
+                                    Montenegro
+                                </h2>
+                                <p class="slide-content__text">Adriatic Islands and South Coast to Dubrovnik and
+                                    Montenegro
+                                    Adriatic coast has amazingly lot to offer. In our tours we always make you get the
+                                    ultimate
+                                    experience in your motorcycle journey. It is always important to combine the best of
+                                    the
+                                    best in routes, riding experience, sceneries, cuisine, accommodation locations.</p>
+                                <button class="slide-content__btn">More</button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="slide-img ">
+                                <div class="style-six"></div>
+                                <img class="slide-img__decor" src="images/img-slider.png" alt="img-slider">
+                                <h2 class="slide-img__text"><span class="slide-img__text--style">$</span>6 330.00</h2>
+                                <h3 class="slide-img__text-explanation">per Person</h3>
+                            </div>
+                            <div class="slide-content">
+                                <h2 class="slide-content__titl">Eastern European Treasures - Europe motorcycle tour</h2>
+                                <p class="slide-content__text">The tour of Eastern European Treasures is indeed a
+                                    treasure
+                                    in itself. It is rich in all of
+                                    its aspects. It covers no less than 5 countries, including areas and old European
+                                    cities
+                                    bursting with history and charm. Prepare yourself to be amazed by the well known
+                                    glamour.
+                                </p>
+                                <button class="slide-content__btn">More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="conteiner-fluid">
+                <div class="about-box">
+                    <div class="left-side">
+                        <div class="left-side__content">
+                            <h1 class="left-side__content-title">We are World Wide</h1>
+                            <h2 class="left-side__content-header">Various tours around Spain.</h2>
+                            <p class="left-side__content-text">This tour takes you to the of Spain. Delicious cuisine,
+                                some
+                                of the best
+                                wines, amazing sceneries full of charming villages and authentic Spanish way of life.
+                            </p>
+                            <h2 class="left-side__content-header">Various tours around Italy.</h2>
+                            <p class="left-side__content-text">Magnificant historic Rome, a ride alongside beautiful
+                                Amalfi
+                                coast down
+                                the south, Sicily in all its authentic beauty.</p>
+                            <h2 class="left-side__content-header">Various tours around Croatia.</h2>
+                            <p class="left-side__content-text">Riding the stunning Adriatic Coast is something every
+                                biker
+                                should try
+                                and do at least once in their lives, it really is that special.</p>
+                        </div>
+                        <div class="left-side__about-img">
+                            <img class="left-side__about-img--style" src="images/centr-moto90.png" alt="">
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div class="right-side__content">
+                            <div class="layer-one">
+                                <div class="layer__img">
+                                    <div class="layer__img--apday">
+                                        <img src="images/alex.png" alt="alex">
+                                        <h3 class="layer__content-header--specialty">Main Rider</h3>
+                                    </div>
+                                </div>
+                                <div class="layer__content">
+                                    <div class="layer__content-header">
+                                        <h2 class="layer__content-header--name">Alex Kralj</h2>
+                                    </div>
+                                    <div class="layer__content-text">
+                                        <p class="layer__content-text--style">I am feeling an indescribable passion and
+                                            excitement that almost
+                                            matches the amazing riding experience felt by every passionate motorcycle
+                                            rider
+                                            and traveller.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="layer-two">
+                                <div class="layer__content">
+                                    <div class="layer__content-header">
+                                        <h2 class="layer__content-header--name">Steve Medved</h2>
+                                    </div>
+                                    <div class="layer__content-text">
+                                        <p class="layer__content-text--style">I was born in 1975 and I've been riding a
+                                            bike non-stop since I was 16. Professionally, I am an experienced tourism
+                                            manager.</p>
+                                    </div>
+                                </div>
+                                <div class="layer__img leyer__img-left">
+                                    <div class="layer__img--apday">
+                                        <img src="images/steve.png" alt="steve">
+                                        <h3 class="layer__content-header--specialty">Main Rider</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="layer-three">
+                                <div class="layer__img">
+                                    <div class="layer__img--apday">
+                                        <img src="images/bill.png" alt="bill">
+                                        <h3 class="layer__content-header--specialty">Main Rider</h3>
+                                    </div>
+                                </div>
+                                <div class="layer__content">
+                                    <div class="layer__content-header">
+                                        <h2 class="layer__content-header--name">Bill Pokec</h2>
+                                    </div>
+                                    <div class="layer__content-text">
+                                        <p class="layer__content-text--style">I dedicate my free time mainly to my
+                                            passion and that is motorcycling, for which I also impressed my wife.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-img">
+                        <img class="about-img--style" src="images/centr-moto.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials">
+            <div class="conteiner">
+                <div class="testimonials-box">
+                    <div class="testimonials-header">
+                        <h1 class="testimonials-header__title"><span class="testimonials-header__title--color">WHAT
+                                DO</span>CUSTOMERS SAY ABOUT US</h1>
+                        <p class="testimonials-header__text">Here is the list of our customers reviews. </p>
+                    </div>
+                    <div class="testimonials-footer">
+                        <div class="testimonials-footer-left animate__animated animate__fadeInUp">
+                            <div class="testimonials-footer-left__slider">
+                                <div class="swiper myNewSwiper">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide ">
+                                            <div class="testimonials-slide-header">
+                                                <div class="testimonials-slide-header__img-one"></div>
+                                                <div class="testimonials-slide-header__text">
+                                                    <h2 class="testimonials-slide-header__text-name">Mark Stoner</h2>
+                                                    <p class="testimonials-slide-header__text-country">Nolensville,
+                                                        Tennessee,
+                                                        USA</p>
+                                                </div>
+                                            </div>
+                                            <p class="testimonials-slide-footer">"Wow what an amazing experience for my
+                                                wife and I. We just finished the Grand Alpine Explorer 15 day trip.
+                                                Everything was first class from the communication with the owner, to
+                                                the motorcycles, accommodations and mostly our tour guides Igor and
+                                                Erik. We had such a great time with them and they are amazing
+                                                ambassadors for this company. This adventure exceeded our expectations
+                                                in every possible way. Thank you very much!"</p>
+                                        </div>
+                                        <div class="swiper-slide ">
+                                            <div class="testimonials-slide-header">
+                                                <div class="testimonials-slide-header__img-two"></div>
+                                                <div class="testimonials-slide-header__text">
+                                                    <h2 class="testimonials-slide-header__text-name">Ashraf Khateeb</h2>
+                                                    <p class="testimonials-slide-header__text-country">Manama, Bahrain
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="testimonials-slide-footer">
+                                                "We just completed our Alps trip with the team. If there is a rating for
+                                                Mototours Europe, there is no
+                                                doubt they get 5/5 minimum with above expectations ratings.Team spirit :
+                                                cant be better, you just feel like your are with your family and your
+                                                best freinds. I wish the team all the best and really recommend anyone
+                                                to go with the one and only Mototours Europe. See you all soon again in
+                                                another experience and trip."
+                                            </p>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="testimonials-slide-header">
+                                                <div class="testimonials-slide-header__img-three"></div>
+                                                <div class="testimonials-slide-header__text">
+                                                    <h2 class="testimonials-slide-header__text-name">Mohamed Al-Saleh
+                                                    </h2>
+                                                    <p class="testimonials-slide-header__text-country">Doha, Qatar</p>
+                                                </div>
+                                            </div>
+                                            <p class="testimonials-slide-footer">"I would like to thank you all for the
+                                                warm welcoming and the effort you have made to show us the beauty of the
+                                                nature of Croatia and keep us safe. It was a memorable experience.
+                                                Thanks!"</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-two-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonials-footer-right">
+                            <img class="testimonials-footer-right__img" src="images/place-img.png" alt="place-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="feature">
+            <div class="conteiner">
+                <div class="feature-box">
+                    <div class="feature-header">
+                        <h1 class="feature-header__title">Guided motorcycle tours <span
+                                class="feature-header__title--color">since 1880.</span></h1>
+                        <p class="feature-header__text">We are a team of passionate motorcycle travellers with decades
+                            of
+                            experience riding across the Globe and hundreds of thousands of miles on our mileage
+                            display.
+                        </p>
+                    </div>
+                    <div class="feature-footer">
+                        <div class="feature-footer-left">
+                            <div class="feature-footer-left__title">
+                                <h3 class="feature-footer-left__title-info">1000km<br>2 Days</h3>
+                                <h2 class="feature-footer-left__title-info feature-footer-left__title-info--size ">
+                                    3000km<br>7 days</h2>
+                            </div>
+                            <p class="feature-footer-left__text"> We have carefully planned and selected our motorcycle
+                                tours in Europe in order to provide you with the best possible riding experience,
+                                together
+                                with cultural sights, beautiful natural scenery, tasty local specialties and the highest
+                                quality of accommodation.</p>
+                        </div>
+                        <div class="feature-footer-right">
+                            <div class="feature-footer-right__title">
+                                <h2 class="feature-footer-right__title-info feature-footer-right__title-info--size">
+                                    50+<br><span class="feature-footer-right__title-info--style">Countries</span></h2>
+                                <h3 class="feature-footer-right__title-info">1000+<br>SCENERY</h3>
+                            </div>
+                            <p class="feature-footer-right__text"> Our guided motorcycle tours can be tailored and
+                                customized for your group or set as well as self guided tours. Join us in some of the
+                                best
+                                motorcycle tours in Europe!</p>
+                        </div>
+                        <div class="feature-footer__img">
+                            <img class="feature-footer__img--style" src="images/moto-in-front.png" alt="moto-in-front">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bagraund-style"></div>
+        </section>
+        <section class="blog" id="blog">
+            <div class="conteiner">
+                <div class="blog-box">
+                    <div class="blog-header">
+                        <h1 class="blog-header__title">Travel Blog</h1>
+                    </div>
+                    <div class="blog-footer">
+                        <div class="blog-footer-slide">
+                            <div class="swiper myThreeSwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="blog-footer-slide">
+                                            <div class="blog-footer-box">
+                                                <div class="blog-footer-slide__img">
+                                                    <div class="blog-footer-slide__img-beg--one"></div>
+                                                    <img class="blog-footer-slide__img--decor"
+                                                        src="images/img-slider.png" alt="poligon">
+                                                    <h2 class="blog-footer-slide__img-date">06 NOV, 2022</h2>
+                                                    <p class="blog-footer-slide__img-country">Austria</p>
+                                                </div>
+                                                <div class="blog-footer-slide__content">
+                                                    <h2 class="blog-footer-slide__content-title">Alps motorcycle tours
+                                                    </h2>
+                                                    <p class="blog-footer-slide__content-text">There is plenty of
+                                                        opportunities
+                                                        to ride in the Alps but we have chosen truly the best of the
+                                                        best in
+                                                        our
+                                                        Alps motorcycle tours. If touring Alps on your own with not much
+                                                        experience in knowing the areas, it is not easy to route the
+                                                        Alps
+                                                        properly and particularly not easy to make sure you enjoy the
+                                                        ultimate
+                                                        ride over there so our experienced teams make sure we take you
+                                                        to
+                                                        the
+                                                        most scenic Alpine regions, the best routes and the best of the
+                                                        best
+                                                        in
+                                                        terms of Alpine passes and areas <a
+                                                            class="blog-footer-slide__content-text--link"
+                                                            href="#">...more</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="blog-footer-slide">
+                                            <div class="blog-footer-box">
+                                                <div class="blog-footer-slide__img">
+                                                    <div class="blog-footer-slide__img-beg--two"></div>
+                                                    <img class="blog-footer-slide__img--decor"
+                                                        src="images/img-slider.png" alt="poligon">
+                                                    <h2 class="blog-footer-slide__img-date">16 OCT, 2021</h2>
+                                                    <p class="blog-footer-slide__img-country">Italy and France</p>
+                                                </div>
+                                                <div class="blog-footer-slide__content">
+                                                    <h2 class="blog-footer-slide__content-title">Sardinia and Corsica -
+                                                        a must-ride hidden jewels of Mediterranean
+                                                    </h2>
+                                                    <p class="blog-footer-slide__content-text">There are many places in
+                                                        the World a person would call amazing, beautiful, stunning,
+                                                        interesting and dozens of other words that would describe the
+                                                        fascinating beauty of our planet. But, some of them are truly
+                                                        special in many aspects. And when we speak about riding
+                                                        experience, sceneries, historic heritage and natural landscapes
+                                                        these amazing Mediterranean islands are on top of the bucket
+                                                        list of must do in a lifetime or more precise in our motorcycle
+                                                        language - “must ride”. <a
+                                                            class="blog-footer-slide__content-text--link"
+                                                            href="#">...more</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="blog-footer-slide">
+                                            <div class="blog-footer-box">
+                                                <div class="blog-footer-slide__img">
+                                                    <div class="blog-footer-slide__img-beg--three"></div>
+                                                    <img class="blog-footer-slide__img--decor"
+                                                        src="images/img-slider.png" alt="poligon">
+                                                    <h2 class="blog-footer-slide__img-date">23 MAY, 2021</h2>
+                                                    <p class="blog-footer-slide__img-country">Croatia</p>
+                                                </div>
+                                                <div class="blog-footer-slide__content">
+                                                    <h2 class="blog-footer-slide__content-title">Adriatic guided
+                                                        motorcycle tours
+                                                    </h2>
+                                                    <p class="blog-footer-slide__content-text">When we speak about
+                                                        ultimate coastal rides, one of true jewels that is still not
+                                                        explored enough is Croatia and Adriatic. Our Adriatic guided
+                                                        motorcycle tours are truly amazing guided motorcycle tours and
+                                                        very popular between our client riders that’s why we are
+                                                        continuously adding different varieties of these tours. Besides
+                                                        long Adriatic coastal guided motorcycle tour of 12 days, we
+                                                        offer as well 2 shorter variants of these tours, one that
+                                                        includes Adriatic coast and Northern Adriatic Islands and
+                                                        another one that is covering the Adriatic south including
+                                                        Dubrovnik area and Montenegro.<a
+                                                            class="blog-footer-slide__content-text--link"
+                                                            href="#">...more</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="blog-footer-slide">
+                                            <div class="blog-footer-box">
+                                                <div class="blog-footer-slide__img">
+                                                    <div class="blog-footer-slide__img-beg--four"></div>
+                                                    <img class="blog-footer-slide__img--decor"
+                                                        src="images/img-slider.png" alt="poligon">
+                                                    <h2 class="blog-footer-slide__img-date">20 MAR ,2021</h2>
+                                                    <p class="blog-footer-slide__img-country">Italy</p>
+                                                </div>
+                                                <div class="blog-footer-slide__content">
+                                                    <h2 class="blog-footer-slide__content-title">Motorcycle tours of
+                                                        Italy
+                                                    </h2>
+                                                    <p class="blog-footer-slide__content-text">Bella Italia. Wherever
+                                                        you pin point in Italy you can`t miss it. This country is so
+                                                        marvelous in many aspects that it literally amazes you in every
+                                                        corner. From north and its glacier lakes and Dolomites mountains
+                                                        or Alps reachable from romantic Venice or fashionable Milan, or
+                                                        famous car industry town of Torino. Depending where you want to
+                                                        ride, you can combine north Italy from any of its beautiful
+                                                        northern cities, either its Venice and Dolomites, Milan and
+                                                        Swiss Alps or Torino on the west and French Alps. If you are
+                                                        keen on motorcycle tours in Europe, Italy should be on the top
+                                                        of your bucket list countries. <a
+                                                            class="blog-footer-slide__content-text--link"
+                                                            href="#">...more</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-three-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="info">
+            <div class="info-black">
+                <div class="conteiner">
+                    <div class="info-box">
+                        <div class="info-content">
+                            <h1 class="info-content__title">Start Your Journey</h1>
+                            <p class="info-content__text">Ever since the first moment of founding our company, we are
+                                feeling an indescribable passion and excitement that matches the amazing adventurous
+                                travel
+                                experience felt by every curious adventure bike rider and traveler. In order to deliver
+                                the
+                                feeling of freedom such adventure motorcycle travel experiences provide to a person,
+                                through
+                                exploring different aspects of the beauty of the World, whether it’s nature, different
+                                cultures, awesome cuisine, arts, music or whatever makes us reach beyond the horizons,
+                                we
+                                are determined and excited to provide these experiences fueled with freedom to our
+                                clients.
+                                Our motorcycle tours will take your vacation to the next level. Join us and expand your
+                                horizons!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="conteiner">
+                <div class="contact-box">
+                    <div class="contact-info">
+                        <div class="contact-info-email">
+                            <div class="contact-ifo-email__img">
+                                <img class="contact-ifo-email__img--style" src="images/email.png" alt="email">
+                            </div>
+                            <div class="contact-ifo-email__text">
+                                <h2 class="contact-ifo-email__text-title">Email</h2>
+                                <p class="contact-ifo-email__text-mail"><a class="contact-ifo-email__text-mail--style"
+                                        href="#"> moto@psd.in</a></p>
+                                <p class="contact-ifo-email__text-mail"><a class="contact-ifo-email__text-mail--style"
+                                        href="#">mototours@psd.in</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-phone">
+                            <div class="contact-ifo-phone__img">
+                                <img class="contact-ifo-phone__img-style" src="images/phone.png" alt="phone">
+                            </div>
+                            <div class="contact-ifo-phone__text">
+                                <h2 class="contact-ifo-phone__text-title">Phone</h2>
+                                <p class="contact-ifo-phone__text-number"><a
+                                        class="contact-ifo-phone__text-number--style" href="#">+1 213 325 5622</a></p>
+                                <p class="contact-ifo-phone__text-number"><a
+                                        class="contact-ifo-phone__text-number--style" href="#">+44 20 3318 1431</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-info-address">
+                            <div class="contact-ifo-address__img">
+                                <img class="contact-ifo-address__img-style" src="images/address.png" alt="address">
+                            </div>
+                            <div class="contact-ifo-address__text">
+                                <h2 class="contact-ifo-address__text-title">Address</h2>
+                                <p class="contact-ifo-address__text-ul">Adventure Roads Ltd</p>
+                                <p class="contact-ifo-address__text-ul">299A Bethnal Green Road
+                                    London</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="#"><img class="contact-social__img" src="images/Icon-soc1.png"
+                                alt="contact-social"></a>
+                        <a href="#"><img class="contact-social__img" src="images/Icon-soc2.png"
+                                alt="contact-social"></a>
+                        <a href="#"><img class="contact-social__img" src="images/Icon-soc3.png"
+                                alt="contact-social"></a>
+                        <a href="#"><img class="contact-social__img" src="images/Icon-soc4.png"
+                                alt="contact-social"></a>
+                        <a href="#"><img class="contact-social__img" src="images/Icon-soc5.png"
+                                alt="contact-social"></a>
+                        <a href="#"><img class="contact-social__img" src="images/Icon-soc6.png"
+                                alt="contact-social"></a>
+                        <a href="#"><img class="contact-social__img" src="images/Icon-soc7.png"
+                                alt="contact-social"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="message">
+            <div class="container-fluid">
+                <div class="form-message">
+                    <div class="form-message-top">
+                        <div class="form-message-top-logo">
+                            <div class="form-message-top-logo-img">
+                                <img class="form-message-top-logo-img--style" src="images/logo.svg" alt="logo">
+                            </div>
+                            <div class="form-message-top-logo-name">
+                                <h2 class="form-message-top-logo-name__header">Endless<span
+                                        class="form-message-top-logo-name__header--color">Ride</span></h2>
+                                <span class="form-message-top-logo-name__footer">Tagline here</span>
+                            </div>
+                        </div>
+                        <div class="form-message-top-text">
+                            <h3 class="form-message-top-text__title">Adventure Roads</h3>
+                            <p class="form-message-top-text__tagline">We typically reply in a few minutes</p>
+                            <p class="form-message-top-text__tagline">Got any questions? I'm happy to help.</p>
+                        </div>
+                    </div>
+                    <div class="form-message-button">
+                        <div class="form-message-buton-field-one">
+                            <input class="form-message-buton-field__input" placeholder=" " type="text" id="name"
+                                autocomplete="off">
+                            <label class="form-message-buton-field__label" for="Name">Name</label>
+                        </div>
+                        <div class="form-message-buton-field-two">
+                            <input class="form-message-buton-field__input" placeholder=" " type="text" id="email"
+                                autocomplete="off">
+                            <label class="form-message-buton-field__label" for="email">Email</label>
+                        </div>
+                        <div class="form-message-buton-field-three">
+                            <textarea class="form-message-buton-field__textarea" placeholder=" " name="" id="" cols="30"
+                                rows="10"></textarea>
+                            <label class="form-message-buton-field__label" for="email">Text</label>
+                        </div>
+                        <button class="form-message-button__button">send</button>
+
+                    </div>
+                </div>
+                <button class="message-btn">
+                    <div class="message-btn-border">
+                        <img class="message-btn-border__img-open" src="images/chatting.png" alt="chatting">
+                        <img class="message-btn-border__img-close" src="images/close.png" alt="close">
+                    </div>
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="conteiner">
+            <div class="footer-content">
+                <p class="footer-content__text">All rights reserved 2022 © Moto , Web design: Art Net</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
